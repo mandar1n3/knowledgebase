@@ -1,6 +1,3 @@
-Date: 8/10/2026
-Teacher: Sophie Collard
-
 # Recap
 
 - A primary key must be unique and cannot be null.
