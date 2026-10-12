@@ -1,6 +1,3 @@
-Date: 24/09/2026
-Teacher: Sophie Collard
-
 # What is a database ?
 
 > We will be creating and managing our database with wamp server or lamp server
@@ -18,4 +15,3 @@ Teacher: Sophie Collard
    - A manay to many relationship
     - we have to create an intermidiary table that joins the data of two tables.
         - Minimum three fields: the ids and the foreign keys of the two tables.
-
