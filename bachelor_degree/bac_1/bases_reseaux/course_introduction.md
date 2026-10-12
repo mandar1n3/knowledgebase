@@ -1,22 +1,8 @@
-Date: 29/09/2026
-Teacher: Dominique Servais
-code: 2202
-
-> stopped at CID notation
-
 # Network basics: Course Introduction
-
-Course is split in two:
-- Introductory
-- Advanced
-
-# Course Objective
 
 The goal is to be equipped with the vocabulary necessary for communicating
 effectively with the network administrator(s) and be able to recognize issues
 and explain them using the learned vocabulary.
-
-# Notes
 
 - DNS can be thought as an address book for servers.
 - A network is a way to connect multiple operators with each other
@@ -59,12 +45,6 @@ and explain them using the learned vocabulary.
 - A solution was to create private and public address and then switched to
   IPv6.
 - An IP address is only usefull if we have its subnet mask.
-
-> invastigate subnet mask
-> invastigate private and public IPv4 address.
-> invastigate cdn and IP address short path solution.
-> invastigate NAT.
-> Investiagte CID notation
 
 - The NAT job is to translate an private address to a public address and 
   vice versa. It takes places in the router-modem.
