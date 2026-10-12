@@ -1,6 +1,3 @@
-Date: 23/09/2026
-Teacher: Sophie Collard
-
 # Flow charts
 
 > A flow chart is a type of diagram that represents a workflow or process.
@@ -28,29 +25,3 @@ It's a free beginner frendly programming language based on graphical flowcharts.
     - Mistranslation of the algorithm into a specific programming language.
     - In rare cases a computer failure.
 - By convention the CamelCase notation is used.
-  
-
-# Exercice on variable names
-1. correct
-2. incorrect
-3. incorrect
-4. incorrect
-5. incorrect
-6. conrrect (but incomprehensible)
-7. incorecct
-8. incorrect
-
-# Exercice flowchart 
-
-Diamond -> condition
-Square -> affectation
-Parrellogram -> i/o
-Hexagone -> Boucle
-
-age -> rectangle
-while than -> hexagone
-wrtie -> parrallogram
-age = age + 1 -> rectangle
-ask for input -> parrallogram
-until -> hexagone
-display -> parrallogram
