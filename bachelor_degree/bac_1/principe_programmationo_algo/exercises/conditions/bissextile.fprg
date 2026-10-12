@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercice_annee_bissextile_arno_volts"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 06:24:39 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDU7MDM6MDE6NDEgUE07MjQ4Nw=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDY6MjQ6MzkgUE07MjsyNjEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="year" type="Integer" array="False" size=""/>
+            <output expression="&quot;Entrer une ann&#233;e: &quot;" newline="True"/>
+            <input variable="year"/>
+            <if expression="year % 4 = 0">
+                <then>
+                    <if expression="year % 100 = 0">
+                        <then>
+                            <if expression="year % 400 = 0">
+                                <then>
+                                    <output expression="&quot;L'ann&#233;e &quot; &amp; year &amp; &quot; est bissextile.&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;L'ann&#233;e &quot; &amp; year &amp; &quot; n'est pas bissextile.&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;L'ann&#233;e &quot; &amp; year &amp; &quot; est bissextile.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;L'ann&#233;e &quot; &amp; year &amp; &quot; n'est pas bissextile.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="valeur_absolue"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-30 06:49:51 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMDktMzA7MDY6Mzk6NTMgUE07MjUxMA=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMDktMzA7MDY6NDk6NTEgUE07MTsyNjE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nbr" type="Integer" array="False" size=""/>
+            <input variable="nbr"/>
+            <if expression="nbr &lt; 0">
+                <then>
+                    <assign variable="nbr" expression="- nbr"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Valeur absolue = &quot; &amp; nbr" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

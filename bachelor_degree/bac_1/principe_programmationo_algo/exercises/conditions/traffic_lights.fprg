@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="traffic_lights"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-03 08:08:52 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMDktMzA7MDg6MDg6NDMgUE07MjUwNw=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDM7MDg6MDg6NTIgUE07MTsyNjA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="color" type="String" array="False" size=""/>
+            <assign variable="color" expression="&quot;vert&quot;"/>
+            <if expression="color == &quot;vert&quot;">
+                <then>
+                    <assign variable="color" expression="&quot;orange&quot;"/>
+                    <output expression="&quot;Le feux est &quot; &amp; color" newline="True"/>
+                    <if expression="color == &quot;orange&quot;">
+                        <then>
+                            <assign variable="color" expression="&quot;rouge&quot;"/>
+                            <output expression="&quot;Le feux est &quot; &amp; color" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

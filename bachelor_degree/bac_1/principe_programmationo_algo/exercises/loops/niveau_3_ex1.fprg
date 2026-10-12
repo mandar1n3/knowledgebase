@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="niveau_3_ex1"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 08:03:22 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDc6MDY6MjYgUE07MjUwMQ=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDg6MDM6MjIgUE07MzsyNjA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="produit" type="Real" array="False" size=""/>
+            <output expression="&quot;Entrer un nombre r&#233;el&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Entrer un nombre entier&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="produit" expression="0"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <assign variable="produit" expression="produit + a"/>
+            </for>
+            <output expression="&quot;Le produit vaut &quot; &amp; produit" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

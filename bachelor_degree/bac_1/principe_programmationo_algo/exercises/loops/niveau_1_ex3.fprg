@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="afficher_les_nombres_de_50_128_avec_pas_de_7"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 06:32:18 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDY6Mjk6NDQgUE07MjUwNQ=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDY6MzI6MTggUE07MTsyNjA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="50" end="128" direction="inc" step="7">
+                <output expression="i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="niveau2_ex3"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 07:05:32 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDY6NTQ6MzAgUE07MjQ5OA=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDc6MDU6MzIgUE07MjsyNjA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="nbr" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="0"/>
+            <output expression="&quot;Entrer un nombre entier positif&quot;" newline="True"/>
+            <input variable="nbr"/>
+            <for variable="i" start="1" end="nbr" direction="inc" step="1">
+                <assign variable="sum" expression="sum + i"/>
+            </for>
+            <output expression="&quot;La somme est de &quot; &amp; sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="niveau_3_ex4"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 08:31:30 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDg6MTk6NDMgUE07MjUwNQ=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDg6MzE6MzAgUE07MTsyNjAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="100" direction="inc" step="1">
+                <if expression="i % 5 = 0">
+                    <then>
+                        <if expression="i % 7 = 0">
+                            <then>
+                                <output expression="&quot;&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot; * &quot;" newline="False"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <if expression="i % 7 = 0">
+                            <then>
+                                <output expression="&quot; - &quot;" newline="False"/>
+                            </then>
+                            <else>
+                                <output expression="&quot; &quot; &amp; i" newline="False"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

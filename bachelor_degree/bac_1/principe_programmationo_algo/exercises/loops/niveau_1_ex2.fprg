@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="afficher_les&#176;nombres_de_1_10_sur_une_ligne"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 06:37:49 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDY6Mjc6NDYgUE07MjUwNQ=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDY6Mzc6NDkgUE07MjsyNjE4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <if expression="i = 10">
+                    <then>
+                        <output expression="i" newline="False"/>
+                    </then>
+                    <else>
+                        <output expression="i &amp; &quot; - &quot;" newline="False"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

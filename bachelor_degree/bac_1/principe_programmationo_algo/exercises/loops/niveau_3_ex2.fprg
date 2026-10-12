@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="niveau_3_ex1"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 08:06:21 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDc6MDY6MjYgUE07MjUwMQ=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMDc7MDg6MDY6MjEgUE07NDsyNjA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="puissance" type="Real" array="False" size=""/>
+            <output expression="&quot;Entrer un nombre r&#233;el&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Entrer un nombre entier&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="puissance" expression="1"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <assign variable="puissance" expression="puissance * a"/>
+            </for>
+            <output expression="&quot;Le puissance de &quot; &amp; a &amp; &quot; exposant &quot; &amp; n &amp; &quot; vaut &quot; &amp; puissance" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

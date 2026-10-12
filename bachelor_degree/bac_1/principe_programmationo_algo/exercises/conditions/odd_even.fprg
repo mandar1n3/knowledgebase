@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="odd_even"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-30 07:21:20 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMDktMzA7MDc6MTI6MzggUE07MjUwNQ=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMDktMzA7MDc6MjE6MjAgUE07MTsyNjA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nbr" type="Integer" array="False" size=""/>
+            <output expression="&quot;Entrer un nombre entier&quot;" newline="True"/>
+            <input variable="nbr"/>
+            <if expression="nbr % 2 == 0">
+                <then>
+                    <output expression="nbr &amp; &quot; est pair&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="nbr &amp; &quot; est impair&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

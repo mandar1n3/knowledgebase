@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="gestion_erreur"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-30 07:06:45 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMDktMzA7MDY6NTM6MzggUE07MjUwOQ=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMDktMzA7MDc6MDY6NDUgUE07MTsyNjE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nbr1" type="Integer" array="False" size=""/>
+            <declare name="nbr2" type="Integer" array="False" size=""/>
+            <declare name="result" type="Real" array="False" size=""/>
+            <output expression="&quot;Entrer la valeur de nbr1 (numerator)&quot;" newline="True"/>
+            <input variable="nbr1"/>
+            <output expression="&quot;Entrer la valeur pour nbr2 (Denominateur)&quot;" newline="True"/>
+            <input variable="nbr2"/>
+            <if expression="nbr2 != 0">
+                <then>
+                    <assign variable="result" expression="nbr1 / nbr2"/>
+                    <output expression="nbr1 &amp; &quot;/&quot; &amp; nbr2 &amp; &quot; = &quot;  &amp; result" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Erreur: Division par z&#233;ro&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

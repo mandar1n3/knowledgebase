@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="echanger_variables_avec_deux_seulment"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-30 06:25:06 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMDktMzA7MDY6MTI6NTYgUE07MjUwNA=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMDktMzA7MDY6MjU6MDYgUE07MTsyNjEx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="7"/>
+            <assign variable="b" expression="4"/>
+            <assign variable="a" expression="b + a"/>
+            <assign variable="b" expression="a - b"/>
+            <assign variable="a" expression="a - b"/>
+            <output expression="&quot;a = &quot; &amp; a &amp; &quot;, b = &quot; &amp; b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
