@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="example_turtle"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-14 08:29:55 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMTQ7MDg6MTk6NDkgUE07MjUwOQ=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMTQ7MDg6Mjk6NTUgUE07MTsyNjE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nbrDeCoter" type="Integer" array="False" size=""/>
+            <output expression="&quot;Entrer le nombre de coter&quot;" newline="True"/>
+            <input variable="nbrDeCoter"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="nbrDeCoter" direction="inc" step="1">
+                <forward expression="100" pen="down"/>
+                <turn expression="360 / nbrDeCoter" rotate="right"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

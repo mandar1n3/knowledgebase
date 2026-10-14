@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="niveau_3_ex6_v2"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-14 07:04:47 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMTQ7MDY6NDk6MDcgUE07MjUwNA=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMTQ7MDc6MDQ6NDcgUE07MTsyNjA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="choix" type="Integer" array="False" size=""/>
+            <declare name="flag" type="Boolean" array="False" size=""/>
+            <assign variable="flag" expression="true"/>
+            <while expression="flag">
+                <output expression="&quot;Faites un choix (1, 2 ou 3)&quot;" newline="True"/>
+                <input variable="choix"/>
+                <if expression="choix = 1">
+                    <then>
+                        <output expression="&quot;Bonjour&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="choix = 2">
+                            <then>
+                                <output expression="&quot;Bonsoir&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="choix = 3">
+                                    <then>
+                                        <output expression="&quot;Au revoir&quot;" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <assign variable="flag" expression="false"/>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;Merci de votre participation&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

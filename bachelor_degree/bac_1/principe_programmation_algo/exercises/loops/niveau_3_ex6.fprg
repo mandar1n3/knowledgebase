@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="niveau_4_ex6"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-14 06:18:38 PM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMTQ7MDU6NTk6NDcgUE07MjUwOA=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMTQ7MDY6MTg6MzggUE07MjsyNjEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="choice" type="Integer" array="False" size=""/>
+            <do expression="choice = 1 or choice = 2 or choice = 3">
+                <output expression="&quot;Faites un choix (1, 2, 3)&quot;" newline="True"/>
+                <input variable="choice"/>
+                <if expression="choice = 1">
+                    <then>
+                        <output expression="&quot;Bonjour&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="choice = 2">
+                            <then>
+                                <output expression="&quot;Bonsoir&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="choice = 3">
+                                    <then>
+                                        <output expression="&quot;Au revoir&quot;" newline="True"/>
+                                    </then>
+                                    <else/>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </do>
+            <output expression="&quot;Merci, de votre participation&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
