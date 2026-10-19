@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="niveau_3_ex6_v3"/>
+        <attribute name="authors" value="onrad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-19 06:53:01 AM"/>
+        <attribute name="created" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMTk7MDY6MTA6MTcgQU07MjQ4Mw=="/>
+        <attribute name="edited" value="b25yYWQ7QVJDSExJTlVYOzIwMjYtMTAtMTk7MDY6NTM6MDEgQU07MTsyNTkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="choix" type="Integer" array="False" size=""/>
+            <output expression="&quot;Faites un choix (1, 2, 3)&quot;" newline="True"/>
+            <input variable="choix"/>
+            <while expression="choix &gt; 0 and choix &lt;= 3">
+                <if expression="choix = 1">
+                    <then>
+                        <output expression="&quot;Bonjour&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="choix = 2">
+                            <then>
+                                <output expression="&quot;Bonsoir&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Au revoir&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <output expression="&quot;Faites un choix (1, 2, 3)&quot;" newline="True"/>
+                <input variable="choix"/>
+            </while>
+            <output expression="&quot;Merci d'avoir participer !&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
