@@ -1,7 +1,7 @@
 # fnm (Fast Node Manager)
 
 [_fnm_](https://github.com/Schniz/fnm) is a cross platform node version mananger, it works with both
-`.node-version` and `.nvmr`.
+`.node-version` and `.nvmrc`.
 
 My current set up:
 ```bash
